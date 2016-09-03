@@ -1,0 +1,66 @@
+{
+    "users": {
+        "teacher": [
+            {
+                "username": "Alexandre"
+            }
+        ],
+        "first_class":
+                [
+                    {
+                        "username": "Abel"
+                    },
+                    {
+                        "username": "Al"
+                    },
+                    {
+                        "username": "Alan"
+                    },
+                    {
+                        "username": "Arthur"
+                    },
+                    {
+                        "username": "Carl"
+                    },
+                    {
+                        "username": "Blaise"
+                    },
+                    {
+                        "username": "Isaac"
+                    },
+                    {
+                        "username": "Steve"
+                    }
+                ],
+        "final_class": [
+            {
+                "username": "Alfred"
+            },
+            {
+                "username": "Brendan"
+            },
+            {
+                "username": "David"
+            },
+            {
+                "username": "George"
+            },
+            {
+                "username": "Jim"
+            },
+            {
+                "username": "Leslie"
+            },
+            {
+                "username": "Maria"
+            },
+            {
+                "username": "Rasmus"
+            },
+            {
+                "username": "Tim"
+            }
+        ]
+
+    }
+}

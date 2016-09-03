@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>e241eaef-54a9-4f55-9976-256c13a8a840</OriginalElement>
+  <nodes>
+    <node x="661.5" y="492.0">e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.comments</node>
+    <node x="494.21875" y="0.0">e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.users</node>
+    <node x="641.5" y="235.0">e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.posts</node>
+    <node x="289.0" y="700.0">e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.migrations</node>
+    <node x="294.0" y="246.0">e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.scores</node>
+    <node x="231.78125" y="525.5">e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.choice_user</node>
+    <node x="0.0" y="700.0">e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.password_resets</node>
+    <node x="101.28125" y="0.0">e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.questions</node>
+    <node x="0.0" y="257.0">e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.choices</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.choices" target="e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.questions">
+      <point x="0.0" y="-81.5" />
+      <point x="137.0" y="210.0" />
+      <point x="174.78125" y="210.0" />
+      <point x="-73.5" y="92.5" />
+    </edge>
+    <edge source="e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.scores" target="e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.questions">
+      <point x="-73.5" y="-92.5" />
+      <point x="367.5" y="210.0" />
+      <point x="321.78125" y="210.0" />
+      <point x="73.5" y="92.5" />
+    </edge>
+    <edge source="e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.choice_user" target="e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.users">
+      <point x="66.0" y="-48.0" />
+      <point x="429.78125" y="467.0" />
+      <point x="603.25" y="467.0" />
+      <point x="603.25" y="210.0" />
+      <point x="641.21875" y="210.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.comments" target="e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.posts">
+      <point x="0.0" y="-81.5" />
+      <point x="0.0" y="103.5" />
+    </edge>
+    <edge source="e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.choice_user" target="e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.choices">
+      <point x="-66.0" y="-48.0" />
+      <point x="297.78125" y="467.0" />
+      <point x="137.0" y="467.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.posts" target="e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.users">
+      <point x="0.0" y="-103.5" />
+      <point x="798.5" y="210.0" />
+      <point x="739.21875" y="210.0" />
+      <point x="98.0" y="92.5" />
+    </edge>
+    <edge source="e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.scores" target="e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.users">
+      <point x="73.5" y="-92.5" />
+      <point x="514.5" y="210.0" />
+      <point x="543.21875" y="210.0" />
+      <point x="-98.0" y="92.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7233606557377049" x="478.0" y="398.0" />
+  <SelectedNodes>
+    <node>e241eaef-54a9-4f55-9976-256c13a8a840.TABLE:db_eLycee.choices</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
